@@ -1,0 +1,52 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Vazir.ttf);
+}
+
+body{
+
+    text-align: right;
+    direction: rtl;
+font-family: myFirstFont;
+
+}
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+
+}
+@media (min-width : 768px) {
+    .jumbotron {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
+
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+}
+.card{
+    /*margin-top: -30px;*/
+
+    box-shadow: 0 .25rem .75rem rgba(0,0,0,.05);
+
+
+
+}
+.form-inline{
+    margin-right: 30%;
+margin-top: 5px;
+
+}
+.tor{
+    width: 100px;
+    height: 50px;
+
+
+}
